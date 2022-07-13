@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.attribution 
+{ font-size: 11px;
+  text-align: center; 
+}
+.attribution a { 
+color: hsl(228, 45%, 44%); 
+}
+.bg{
+background-color: hsl(218, 23%, 16%) ;   
+}
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+.innerbox{
+ background-color: hsl(217, 19%, 24%); 
+ line-height: 3rem;
+}
+@media(min-width:375px){ 
+    .box{ width:185px; }
+ }
+/* for center the advice box */
+/* .box{ display:flex;justify-content: center;height:100px;padding:15px; }
+*/
+.box{
+position: absolute;
+top:30%; 
+left:12%;
+margin-top:-50px;
+margin-left:-100px;
+width:20rem; 
+} 
+#h6{
+color:hsl(150, 100%, 66%);
+letter-spacing: 3px;
+ }
+
+/* for align center */
+.innerbox{
+text-align:center;
+border-radius: 10px;
+}
+/*...*/
+.dice{
+background-color: hsl(150, 100%, 66%);
+padding:14.5px;
+border-radius: 50px;
+width:50px; 
+height:50px;
+}
+#dice img{
+    border-radius: 2px;
+ }
+.dice{
+    position:absolute;
+    bottom:-29px;
+    left:41.8%;
+}
+.dice:hover{
+    box-shadow: 0 0 30px  hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+.innerbox img{
+    padding:30px;
+}
+blockquote{
+    color: hsl(193, 38%, 86%);
+    font-size: 17pt;
+    padding-left: 13px;
+    padding-right: 13px; 
+    line-height: 28px;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:calc(100vh -1px);
+    margin:15rem;  
+  
+}
+.box{
+    position: relative;
+}
+#divider{
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+button {
+    background-color: aqua;
+    border:none;
+    height:10px;
+}
+
+
